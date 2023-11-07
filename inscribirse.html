@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inscripcion CURSARE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary  fixed-top navbar-expand-lg">
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#">CURSARE - Inscripción</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html/#consultas">Consultas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="container" id="inscribite">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <h2 class="titulo-gral text-center ">Inscripcion a cursada</h2>
+                    <form id="formulario" action="">
+                        <div class="row gx-2">
+                            <div class="col-md mb-3">
+                                <input type="text" class="form-control" id="nombre" placeholder="* Nombre" aria-label="Nombre" required>
+                            </div>
+                            <div class="col-md mb-3">
+                                <input type="text" class="form-control" id="apellido" placeholder="* Apellido" aria-label="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="* Email" aria-label="Email" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="tel" class="form-control" id="whatsapp" placeholder="* Telefono" aria-label="telefono" required>
+                                <div id="emailHelp" class="form-text mb-3">Recuerda incluir un telefono/WhatsApp de contacto
+                                    valido </div>
+                                </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <select class="form-select" aria-label="Default select example" id="curso-listado" required>
+                                    <option value="" selected>-- * Seleccione Carrera --</option>
+                                    <option value="1" id="desarroloWeb">Desarrollo Web</option>
+                                    <option value="2" id="java">FullStack Java</option>
+                                    <option value="3" id="phyton">FullStack Phyton</option>
+                                    <option value="4" id="redes">Redes</option>
+                                    <option value="5" id="gestion">Gestion de Proyectos</option>
+                                </select>
+
+                                <div class="alert alert-primary mt-2 mb-4 " role="alert">
+                                    Total a pagar: $ <span id="totalPago" class="justify-content-center"></span>
+                                </div>
+
+                                <div id="mens" class="form-text mb-3">* Campo obligatorio</div>
+                                </div>
+
+                                <div class="d-grid">
+                                    <div>
+                                        <div class="row">
+                                            <div class="col mb-3">
+                                            <button type="submit" class="btn btn-lg btn-info ">Enviar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"> </script>
+    
+    
+    
+</body>
+
+</html>

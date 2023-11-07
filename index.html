@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TP integrador Daniel Bentancourt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary  fixed-top navbar-expand-lg" >
+            <div class="container-fluid ">
+                <a class="navbar-brand " href="#">CURSARE</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end " id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#consultas">Consultas</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="inscribirse.html" target="_blank">Inscribirse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre Nosotros</a>
+                        </li>
+                      </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="Images/edificio2.jpg" class="d-block mw-100 mx-auto" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+              <h5>Somos lideres en Zona Norte</h5>
+              <p>Estmos en Torre Pueblo, Tigre.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="Images/edificio4.jpg" class="d-block mw-100 mx-auto" alt="...">
+            <div class="carousel-caption d-none d-md-block text-light">
+
+              <h5>Estudia con nosotros!</h5>
+              <p>Encuentranos en el 2do Piso, del complejo.</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+        <div class="container text-center col-12 card-header">
+          <h3>Nuestros Cursos</h3>
+        </div>
+          
+        <div class="container" id="cursos">
+            
+            <div class="row g-0 ">
+                <div class="col col-12 col-sm-6 col-lg-4 g-4">
+                    <div class="card h-100 ">
+                        <img src="Images/curso1.jpg" alt="Curso Programacion Java" class="card-img-top ">
+                        <div class="car-body ">
+                            <h4 class="card-title ">Programación</h4>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Carreras en Programación</h6>
+                            <p class="card-text">Detalles en cada boton</p>
+
+                              <p class="d-inline-flex gap-1">
+                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Desarrolo Web
+                                </a>
+                                <a class="btn btn-danger" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Java
+                                </a>
+                                <a class="btn btn-warning" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                  Phyton
+                                </a>  
+                              </p>
+
+                            <a href="inscribirse.html" target="_blank" class="btn btn-success text-center" >Inscribite</a>
+                            
+                            <div class="collapse" id="collapseExample1">
+                              <div class="card card-body">
+                                <ul>
+                                  <li>Desarrollo Web</li>
+                                    <p>Curso ...html, ccs, javascrip</p>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseExample2">
+                              <div class="card card-body">
+                                <ul>
+                                  <li>Java FullStack</li>
+                                    <p>Detalles de cursada Java</p>
+                                </ul>
+                              </div>
+                            </div>
+
+                            <div class="collapse" id="collapseExample3">
+                              <div class="card card-body">
+                                <ul>
+                                  <li>Phyton</li>
+                                    <p>Detalles de cursada Phyton</p>
+                                </ul>
+                              </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="col col-12 col-sm-6 col-lg-4 g-4 ">
+                    <div class="card h-100 ">
+                        <img src="Images/curso2.jpg" alt="Curso Redes" class="card-img-top ">
+                        <div class="car-body">
+                            <h4 class="card-title">Técnico en Redes</h4>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Redes y Netwoking</h6>
+                            <p class="card-text">Curso de Redes y Netwoking...</p>
+                            <a href="inscribirse.html" target="_blank" class="btn btn-success text-center">Inscribite</a>
+                        </div> 
+                    </div>
+                </div>
+
+                <div class="col col-12 col-sm-6 col-lg-4 g-4">
+                    <div class="card h-100 ">
+                        <img src="Images/curso3.jpg" alt="Curso PMO" class="card-img-top ">
+                        <div class="car-body">
+                            <h4 class="card-title">Gestión de Proyectos IT</h4>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Administración IT</h6>
+                            <p class="card-text">Oficina de Gestión de Proyectos.</p>                              
+                            <p class="card-text">Curso sobre gestion y supervision de proyectos empresariales. <br></p>
+                            <a href="inscribirse.html" target="_blank" class="btn btn-success text-center">Inscribite</a>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="container" id="consultas">
+          <div class="row justify-content-center">
+              <div class="col-lg-8 col-xl-7">
+                  <h2 class="titulo-gral text-center ">Consultas</h2>
+                  <p class="text-center">Completa el formulario para estudiar con nosotros</p>
+                  <form action="">
+                      <div class="row gx-2">
+                          <div class="col-md mb-3">
+                              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+                          </div>
+                          <div class="col-md mb-3">
+                              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col mb-3">
+                              <input type="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col mb-3">
+                            <input type="tel" class="form-control" placeholder="Telefono/WhatsApp" aria-label="telefono" required>
+                        </div>
+                    </div>
+                      <div class="row">
+                          <div class="col mb-3">
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                  placeholder="Consultas o comentarios..." required></textarea>
+                              <div id="emailHelp" class="form-text mb-3">Recuerda incluir un telefono de contacto valido </div>
+                              <div class="d-grid">
+                                  <button type="submit" class="btn btn-lg btn-info ">Enviar</button>
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
